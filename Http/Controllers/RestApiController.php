@@ -6,7 +6,7 @@ use App\Http\Controllers\Controller;
 use PhpBenchmarksLaravel\Events\DefineLang;
 use PhpBenchmarksRestData\Service;
 
-class RestController extends Controller
+class RestApiController extends Controller
 {
     public function rest()
     {
